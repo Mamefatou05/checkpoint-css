@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto';
+    background-color: white;
+    font-size: 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-bottom: 1px solid;
+}
+
+nav .profile {
+    display: flex;
+    align-items: center;
+}
+
+#logoprofile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.profile h2 {
+    margin-left: 5px;
+
+}
+
+nav div ul {
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+
+}
+
+nav div ul li {
+    color: black;
+    padding-left: 15px;
+}
+
+#acceuil {
+    padding-top: 5%;
+    padding-left: 40%;
+    padding-bottom: 5%;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.acceuil {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(Image\ portfolio.jpg);
+    background-size: cover;
+}
+
+.acceuil h1 {
+    padding-left: 5%;
+    position: absolute;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+}
+
+.contain {
+    padding-left: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contain div h3 {
+    text-decoration: underline;
+}
+
+#travail {
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#travail div h3 {
+    text-decoration: underline;
+}
+
+footer {
+    position: relative;
+    margin-top: 5%;
+    padding-left: 0%;
+    padding-top: 5%;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    background-color: black;
+}
+
+footer div ul {
+    position: absolute;
+    margin-left: 0%;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
